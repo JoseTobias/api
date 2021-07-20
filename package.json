@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "lint-staged": "lint-staged",
+    "test": "jest --passWithNoTests --watch",
     "test:staged": "jest"
   },
   "repository": {
